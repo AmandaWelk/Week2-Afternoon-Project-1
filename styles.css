@@ -1,0 +1,81 @@
+body {
+    background-image: url(https://www.spacex.com/static/images/backgrounds/home_feature.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+
+span:hover {
+    text-decoration: underline;
+}
+
+
+.main-header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 200px;
+}
+
+.main-header nav {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+
+.main-content {
+    height: calc(100vh - 100px);
+    position: relative;
+    margin-left: 10%;
+}
+
+.main-content h1 {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main-content h3 {
+    top: 55%;
+    width: 100%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content button {
+    position: absolute;
+    top: 75%;
+    color: white;
+    background-color: black;
+    border-color: white;
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
